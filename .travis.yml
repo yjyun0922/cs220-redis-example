@@ -11,6 +11,6 @@ before_install:
   - docker container list
 
 script:
- - make -C hiredis/
- - make -C tests/
- - ./tests/test-hgetset
+  - make -C hiredis/
+  - make -C tests/
+  - ./tests/test-hgetset
